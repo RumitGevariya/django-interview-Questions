@@ -1,0 +1,81 @@
+1)what is framwork?
+a web freamwork is a collections of modules or packages which allow devlopers to wirth web applications or services without having to hendle such low-level details like a no require a sql quary of a create a table ..
+
+1)what is a django?
+...
+django is a python base free open-sorce web freamworks..
+it is use to create a web applications of server side 
+
+2)flask and django different?
+both are the web freamwork to create a web applictions and web api..
+django will use to create a learge applications ...
+like a we can write a user authentications code in flask but django will give this code autometiclt..
+
+4)which arch flllow django?
+MVT arch..
+M -model :it is the data acesses layer.it containt everting about data..
+V -views..it is a business logic layes.this layes contant the logic that acesses the model data and render into templates..
+it is like a brige between model layes and templates layes..
+T -templates ..it is the presentation layes ..how somthing shoud we disply on web page of other types of documents..
+
+5)django is front end or backend?
+django is a collections of python libs allowing you to quickly and efficiently creat a quality web applicaations ,and it suitable for both frontend and backend..
+
+5)manage.py files how work?
+it is automatically created in each django project.
+it does the same thing as django-admin but also sets the django_setting_module enviroments variables so that it points to your projects setting.py files..
+it said the django which setting files it use..
+
+6)os module?
+os module is use to interact with os of computer..
+this moduls provieds a portable way of using opreating system dependent functionality like path or etc..
+import os
+os.getcwd() --finding a current path of windows..
+os.mkdir() --creating a folder ...
+os.path.join('give a path of joining')--joining a path of os
+
+7)setting.py files??
+
+
+8)static file?
+--image ,javascript ,css this all are know as a static files in django..we can create a static folder a insider our django project..1)go in a setting.py file and install a static app in install app 2)difine a static url in setting .py file 
+
+9)media file?
+--we cant directly store a media file like image.video exc in databse..so first we make a media_url in setting.py file and then we defind a media root in project folder ..
+
+10)medialware what is?
+middleware ia  a framwork of hooks into django request/resposnse processing..
+how the meddileware work?
+when url is hitee then all the meddialware call top to bottam,and in views like when we render any templetes then first meddialware call bottam to top..
+in django we have a so many medialware in bilt in like session ,csrf ,authntivcation,commen etc..
+there are many function will be work behind the seen like call meddialware,process meddialware etc..
+
+11)what is cookies?
+a cookie is a small pices of text data set by web server that resided on the clint machine..
+for example when user send the request to the server then server send a some text data with respons.and than data will store into a clint machin ..so when same clint send again request to the server the server find befor sended cookies and give back respoce what values clint ne joye che..
+
+
+12)session what is?
+session and cookies work are same ..but only different is when clint send a request to the server the serversend back respose with a session id into the clint and clint machin store session id ..and in the server side aslo store thant id data ..so when agin clint send request to the server then server give a data back with the respose..
+
+
+13)what is csrf?
+cross side request forary..
+for example when we file the bank account form submit the form then request goes to server and server verify the cookies and money debitated from the user account..but this money not creaed the 
+
+14)orm?
+one of the most powerfull features of django is its objects-relational mapper which enable you to interact with your database like you would with sql.
+
+in fact django orm is just a pythonical way to create sql to quary and manipulate your database and get result in pythonic fashion..
+
+
+15)database..
+a database is integratied collection of information alog with details.so that it is avalable to the server user for the different applications..
+for a creating or managing a database we need a one sofware that is database menagement system..(DBMS)
+Most databases use structured query language (SQL) for writing and querying data.
+
+#different between sql and no sql
+relational dbms ----no relational database
+table base database ----graph ,document,
+vartical scalbel ---horizontali scalbel
+sqllite,mysql ----mongodb..
